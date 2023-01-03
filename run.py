@@ -8,7 +8,7 @@ import keyboard as kb
 
 print("Bot starting")
 
-API_TOKEN = "5486387836:AAHsRkD76qVjhrpRQLsYwSHsGUL-sKE8WIc"
+API_TOKEN = "5830892238:AAEDGU5xmrAeS9ofo0C1RSefFwicRU8vvRA"
 styles = {1: "Кубизм 🔶", 2: "Звёздная ночь ✨", 3: "Витраж 🪞", 4: "Крик 😱", 5: "Ундина (Юная американка, Танец) 💃", 6: "Большая волна в Канагаве 🌊"}
 
 # Configure logging
@@ -45,7 +45,7 @@ async def send_ph(message: types.Message):
     uploading = await message.answer("Загружаю файл... 🚀\nОбычно это длится не более 15 секунд⏳")
     funcs.imgua(f"{message.from_user.id}.png", effect)
     await uploading.delete()
-    await bot.send_photo(chat_id=message.chat.id, photo=types.input_file.InputFile(path_or_bytesio=f"neuro/{message.from_user.id}.png"), caption="Вроде @Gumbl4_bot справился!  🎉")
+    await bot.send_photo(chat_id=message.chat.id, photo=types.input_file.InputFile(path_or_bytesio=f"neuro/{message.from_user.id}.png"), caption="Вроде @ArtPunk_bot справился!  🎉")
     print("Done!")
 
 
