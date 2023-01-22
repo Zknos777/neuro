@@ -8,7 +8,7 @@ import keyboard as kb
 
 print("Bot starting")
 
-API_TOKEN = "5830892238:AAEDGU5xmrAeS9ofo0C1RSefFwicRU8vvRA"
+API_TOKEN = '5883852800:AAGyv8RcGcBf2nMXR-NjkUyh8cnl_zJHcbE'
 styles = {1: "Кубизм 🔶", 2: "Звёздная ночь ✨", 3: "Витраж 🪞", 4: "Крик 😱", 5: "Ундина (Юная американка, Танец) 💃", 6: "Большая волна в Канагаве 🌊"}
 
 # Configure logging
